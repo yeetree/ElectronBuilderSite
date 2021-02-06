@@ -6,6 +6,8 @@ var newsSrc = "https://yeetree.github.io/ElectronBuilderSite/news-sys/";
 var postList = ["2-6-2021.html", "2-6-2021-2.html];
 
 var i;
-for (i = 0; i <postList.length; i++) {
-  newsDiv.innerHTML += "<iframe src='" + newsSrc + postList[i] + "'</iframe>"
+function uploadPosts() {
+  for (i = 0; i <postList.length; i++) {
+    newsDiv.innerHTML += "<iframe src='" + newsSrc + postList[i] + "'</iframe>"
+  }
 }
