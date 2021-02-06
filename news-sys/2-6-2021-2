@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>Electron Builder New News System! - 2/6/2021</title>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+         <h2>Electron Builder New News System! - 2/6/2021</h2>
+		     <p>Electron Builder's new news system allows for delivering news without having to update the app. Update 1.0.1 will be released later today!</p>
+		     <p>Along with that, the new website for Electron Builder has also been released! You can find it here: <a href="https://yeetree.github.io/ElectronBuilderSite">https://yeetree.github.io/ElectronBuilderSite</a></p>
+    </body>
+</html>
