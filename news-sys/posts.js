@@ -9,7 +9,7 @@ var postList = ["2-6-2021-2.html", "2-6-2021.html"];
 var i;
 function uploadPosts() {
   for (i = 0; i <postList.length; i++) {
-    newsDiv.innerHTML += "<iframe src='" + newsSrc + postList[i] + "'</iframe>"
+    newsDiv.innerHTML += "<iframe src='" + newsSrc + postList[i] + "' onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+`px`;}(this));' style='height:200px;width:100%;border:none;overflow:hidden;'</iframe>'
     newsDiv.innerHTML += "<br />"
   }
 }
