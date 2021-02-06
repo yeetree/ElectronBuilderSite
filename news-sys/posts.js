@@ -9,5 +9,6 @@ var i;
 function uploadPosts() {
   for (i = 0; i <postList.length; i++) {
     newsDiv.innerHTML += "<iframe src='" + newsSrc + postList[i] + "'</iframe>"
+    newsDiv.innerHTML += "<br />"
   }
 }
