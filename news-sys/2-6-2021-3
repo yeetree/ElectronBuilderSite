@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Electron Builder Update 1.0.1 Released!</title>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+         <h2>Electron Builder Update 1.0.1 Released!</h2>
+		     <p>Electron Builder 1.0.1 changes the News menu, now, it updates the News menu to update automatically!/p>
+    </body>
+</html>
